@@ -19,7 +19,7 @@ export default function SingleProduct() {
     const {id} = useParams();
     /* console.log(id); */
     useEffect(() => {
-        fetch("/src/products.json")
+        fetch('/src/products.json')
         .then(res => {
             if(!res.ok) {
                 throw new Error('Network response was not ok')

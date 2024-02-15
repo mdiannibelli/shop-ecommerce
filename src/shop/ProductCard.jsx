@@ -17,11 +17,11 @@ export default function ProductCard({GridList, products}) {
 
                             {/* product action links */}
                             <div className='product-action-link'>
-                                <Link to={`/shop/${product.id}`}><i className='icofont-eye'></i></Link>
+                                <Link to={`/shop/${product.id}`}><i style={{margin:"0px"}} className='icofont-eye'></i></Link>
                                 <a href="#">
-                                    <i className='icofont-heart'></i>
+                                    <i style={{margin:"0px"}} className='icofont-heart'></i>
                                 </a>
-                                <Link to='/cart-page'><i className='icofont-cart-alt'></i></Link>
+                                <Link to='/cart-page'><i style={{margin:"0px"}} className='icofont-cart-alt'></i></Link>
                             </div>
 
                             {/* product content */}
