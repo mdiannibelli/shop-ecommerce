@@ -23,7 +23,7 @@ const clientsList = [
     text: 'Join with Us',
     },
     {
-    imgUrl: '//images/clients/avater.jpg',
+    imgUrl: '/images/clients/avater.jpg',
     imgAlt: 'education thumb rajibraj91 rajibraj',
     text: 'Join with Us',
     },
