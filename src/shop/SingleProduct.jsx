@@ -12,16 +12,14 @@ import "swiper/css";
 import {Autoplay} from "swiper/modules";
 import ProductDisplay from './ProductDisplay';
 import Review from './Review';
-/* import asd from '/src/products.json' */
-/* 'C:/Users/mdian/Desktop/Programación/shop-e-commerce/src/products.json' */
-/* '../products.json' */
+/* import asd from '/src/products.json' */ 
 
 export default function SingleProduct() {
     const [product, setProduct] = useState([]);
     const {id} = useParams();
     /* console.log(id); */
     useEffect(() => {
-        fetch('/../src/products.json')
+        fetch('../../products.json')
         .then(res => {
             if(!res.ok) {
                 throw new Error('Network response was not ok')
