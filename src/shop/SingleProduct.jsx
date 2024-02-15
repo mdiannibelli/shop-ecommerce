@@ -12,6 +12,7 @@ import "swiper/css";
 import {Autoplay} from "swiper/modules";
 import ProductDisplay from './ProductDisplay';
 import Review from './Review';
+import database from '../products.json'
 /* import asd from '/src/products.json' */ 
 
 export default function SingleProduct() {
@@ -19,17 +20,18 @@ export default function SingleProduct() {
     const {id} = useParams();
     /* console.log(id); */
     useEffect(() => {
-        fetch('../../products.json')
+        setProduct(database)
+        /* fetch('../../products.json')
         .then(res => {
             if(!res.ok) {
                 throw new Error('Network response was not ok')
             }
             return res.json();
         })
-        .then(data => setProduct(data)) /* return all products */
-        .catch(error => {
+        .then(data => setProduct(data)) */ /* return all products */
+        /* .catch(error => {
             console.log('Fetch error',error)
-        }) 
+        })  */
     }, [])
 
     /* console.log(product); */
