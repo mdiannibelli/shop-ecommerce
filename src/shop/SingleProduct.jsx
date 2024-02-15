@@ -19,7 +19,7 @@ export default function SingleProduct() {
     const {id} = useParams();
     /* console.log(id); */
     useEffect(() => {
-        fetch("../products.json")
+        fetch("/src/products.json")
         .then(res => res.json())
         .then(data => /* console.log(data) */setProduct(data)) /* return all products */
     }, [])
