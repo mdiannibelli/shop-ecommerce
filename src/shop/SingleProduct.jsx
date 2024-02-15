@@ -70,8 +70,8 @@ export default function SingleProduct() {
                                             
                                             className="mySwiper">
                                                {
-                                                results.map((item,i) => (
-                                                    <SwiperSlide key={i}>
+                                                results.map((item) => (
+                                                    <SwiperSlide key={item.id}>
                                                         <div className='single-thumb'>
                                                         <img src={item.img} alt={item.name} />
                                                         </div>
