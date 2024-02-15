@@ -20,8 +20,16 @@ export default function SingleProduct() {
     /* console.log(id); */
     useEffect(() => {
         fetch("/src/products.json")
-        .then(res => res.json())
+        .then(res => {
+            if(!res.ok) {
+                throw new Error('Network response was not ok')
+            }
+            return res.json();
+        })
         .then(data => /* console.log(data) */setProduct(data)) /* return all products */
+        .catch(error => {
+            console.log('Fetch error',error)
+        }) 
     }, [])
 
     /* console.log(product); */
