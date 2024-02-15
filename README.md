@@ -1,6 +1,6 @@
-## Shop E-commerce using Vite + React
+## Shop E-commerce using Vite + React + Firebase
 
-Frontend project with all funcionallity of an e-comerce website, render of products, categories, add to cart proccess, cart page and payment methods.
+Frontend project with all funcionallity of an e-comerce website, render of products, categories, add to cart proccess, cart page, payment methods, login and register.
 
 # Technologies used in this project
 
@@ -11,6 +11,7 @@ Frontend project with all funcionallity of an e-comerce website, render of produ
 - React-countup
 - React-router-dom
 - Swiper
+- Firebase
 
 # "npm run dev" to see the project!
 
