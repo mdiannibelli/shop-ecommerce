@@ -26,7 +26,7 @@ export default function SingleProduct() {
             }
             return res.json();
         })
-        .then(data => /* console.log(data) */setProduct(data)) /* return all products */
+        .then(data => setProduct(data)) /* return all products */
         .catch(error => {
             console.log('Fetch error',error)
         }) 
