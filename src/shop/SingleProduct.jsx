@@ -65,7 +65,7 @@ export default function SingleProduct() {
                                                 results.map((item,i) => (
                                                     <SwiperSlide key={i}>
                                                         <div className='single-thumb'>
-                                                        <img src={item.img} alt="" />
+                                                        <img src={item.img} alt={item.name} />
                                                         </div>
                                                     </SwiperSlide>
                                                 ))

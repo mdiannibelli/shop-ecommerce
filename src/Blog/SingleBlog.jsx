@@ -55,10 +55,10 @@ export default function SingleBlog() {
                                                                 <p>
                                                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis officia minus vel repudiandae nobis laborum amet repellat quod porro voluptatum illum sint eligendi rem asperiores iusto velit nemo maiores, exercitationem facilis illo distinctio. Eum obcaecati harum labore officia eius quia?
                                                                 </p>
-                                                                <img src="/src/assets/images/blog/single/01.jpg" alt="" />
+                                                                <img src="/images/blog/single/01.jpg" alt="" />
                                                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque qui at voluptate fugit tenetur? Aspernatur minus veritatis et molestiae odit nam voluptate ut voluptatem nesciunt, repellat distinctio, voluptates id iusto alias expedita repudiandae fuga mollitia atque itaque, perspiciatis quisquam molestias. Facere placeat non recusandae iusto quibusdam soluta atque, in quaerat velit, quam, excepturi quos! Cumque, fuga iure? Saepe, fugiat nostrum?</p>
                                                                 <div className='video-thumb'>
-                                                                    <img src="/src/assets/images/blog/single/02.jpg" alt="" />
+                                                                    <img src="/images/blog/single/02.jpg" alt="" />
                                                                     <a href="https://www.youtube.com" className='video-button popup' target='_blank'>
                                                                         <i className='icofont-ui-play'></i>
                                                                     </a>
