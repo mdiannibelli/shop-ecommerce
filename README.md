@@ -13,7 +13,7 @@ Frontend project with all funcionallity of an e-comerce website, render of produ
 - Swiper
 - Firebase
 
-[![shop-1.png](https://i.postimg.cc/GhwmVRH4/shop-1.png)](https://postimg.cc/kDsCRkNC)
+[![shop-ecommerce.png](https://i.postimg.cc/NFXDz9QM/shop-ecommerce.png)](https://postimg.cc/xN0LkdJD)
 [![shop-2.png](https://i.postimg.cc/Nf6jwnHp/shop-2.png)](https://postimg.cc/dL0Y24ny)
 [![shop-3.png](https://i.postimg.cc/Dw7yfcQF/shop-3.png)](https://postimg.cc/YhywbYyy)
 [![shop-4.png](https://i.postimg.cc/WpJ45zbR/shop-4.png)](https://postimg.cc/F1NmR9LG)
