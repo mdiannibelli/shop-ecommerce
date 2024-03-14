@@ -13,6 +13,13 @@ Frontend project with all funcionallity of an e-comerce website, render of produ
 - Swiper
 - Firebase
 
+[![shop-1.png](https://i.postimg.cc/GhwmVRH4/shop-1.png)](https://postimg.cc/kDsCRkNC)
+[![shop-2.png](https://i.postimg.cc/Nf6jwnHp/shop-2.png)](https://postimg.cc/dL0Y24ny)
+[![shop-3.png](https://i.postimg.cc/Dw7yfcQF/shop-3.png)](https://postimg.cc/YhywbYyy)
+[![shop-4.png](https://i.postimg.cc/WpJ45zbR/shop-4.png)](https://postimg.cc/F1NmR9LG)
+[![shop-5.png](https://i.postimg.cc/hvxPvy34/shop-5.png)](https://postimg.cc/m1LG6wsK)
+[![shop-6.png](https://i.postimg.cc/0Qhy8RnH/shop-6.png)](https://postimg.cc/xJy2RZWK)
+
 # "npm run dev" to see the project!
 
 Credits to "Md Al Mamun" https://www.youtube.com/@mdalmamunit427 , this project was created by him and I recreated for practice.
